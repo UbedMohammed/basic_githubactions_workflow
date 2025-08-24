@@ -1,0 +1,14 @@
+name: todoapp workflow
+on:
+  push:
+    branches:
+      - 'main'
+      - 'feature/**'
+jobs:
+  todoapp_workflow:
+    name: 'todoapp workflow'
+    runs-on: self-hosted
+    steps: 
+      - name: 'todoappp workflow_steps'
+        run: echo Mera Pahla Todoapp Workflow
+    
